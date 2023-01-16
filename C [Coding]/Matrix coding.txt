@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    
+    int a[2],b[2],c[2],i;
+    
+    printf("enter frist matrix:\n");
+    for(i=0;i<2;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+    printf("enter second matrix:\n");
+    for(i=0;i<2;i++)
+    {
+        scanf("%d",&b[i]);
+    }
+    for(i=0;i<2;i++)
+    {
+        c[i]=a[i]+b[i];
+    }
+    printf("the final matrix:\n");
+    for(i=0;i<2;i++)
+    {
+        printf("\n%d",c[i]);
+    }
+    return 0;
+}

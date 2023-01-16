@@ -1,0 +1,21 @@
+// wap to calculate reverse using call by reference: 
+#include<stdio.h>
+void rev();
+void main()
+{
+    int num;
+    printf("Enter the value:\n");
+    scanf("%d",&num);
+    rev(&num);
+}
+ void rev(int *num)
+ {
+     int rem,rev=0;
+     while(*num!=0)
+     {
+         rem=*num%10;
+         rev=rev*10+rem;
+         *num=*num/10;
+     }
+     printf("The reverse is =%d",rev);
+ }

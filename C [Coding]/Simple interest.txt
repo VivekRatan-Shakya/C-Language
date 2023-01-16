@@ -1,0 +1,14 @@
+// simple reintest
+#include<stdio.h>
+void main()
+{
+    
+    float p,r,t,si;
+    
+    printf("enter the value \n");
+    scanf("%f%f%f",&p,&r,&t);
+    
+    si=p*r*t/100;
+    
+    printf("the simple interest is =%f",si);
+}

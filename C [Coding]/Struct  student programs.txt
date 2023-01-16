@@ -1,0 +1,30 @@
+#include<stdio.h>
+struct student
+{
+char name[30];
+char branch[20];
+int roll;
+float per;
+}
+student1;
+void main()
+{
+    printf(" enter the name:\n");
+    scanf("%s",&student1. name);
+    
+    printf(" enter the branch:\n");
+    scanf("%s",&student1.branch);
+    
+    printf(" enter the roll:\n");
+    scanf("%d",&student1. roll);
+    
+    printf(" enter the per:\n");
+    scanf("%f",&student1. per);
+
+    printf("\n name %s",student1. name);
+    printf("\n name %s",student1. branch);
+    printf("\n name %d",student1. roll);
+    printf("\n name %f",student1.per);
+
+
+}
